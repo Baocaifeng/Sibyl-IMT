@@ -6,8 +6,8 @@ import argparse
 # Set path and import SibylStart
 from set_path import set_path
 set_path()
-from sibyl.main.sibyl_server import SibylStart
-
+#from sibyl.main.sibyl_server import SibylStart
+from main.sibyl_server import SibylStart
 # Settings
 protocol = 'UDP'
 protocolType = 'binary'

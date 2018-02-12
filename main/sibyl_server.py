@@ -4,9 +4,9 @@
 import logging
 import importlib
 from twisted.internet import reactor
-from sibyl.main.sibyl_brain import SibylBrain
-from sibyl.main.sibyl_server_proxy import SibylServerProxy
-from sibyl.main.sibyl_tcp_server_factory import SibylTcpSeverProtocolFactory
+from main.sibyl_brain import SibylBrain
+from main.sibyl_server_proxy import SibylServerProxy
+from main.sibyl_tcp_server_factory import SibylTcpSeverProtocolFactory
 
 
 def SibylStart(protocol,          # 'UDP' or TCP'
