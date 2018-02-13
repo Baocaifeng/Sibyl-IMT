@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-import logging
 import importlib
-from twisted.internet import reactor
-from main.sibyl_brain import SibylBrain
+import logging
+
+from sibyl.main.sibyl_brain import SibylBrain
 from main.sibyl_server_proxy import SibylServerProxy
-from main.sibyl_tcp_server_factory import SibylTcpSeverProtocolFactory
+from twisted.internet import reactor
+
+from sibyle.main.sibyl_tcp_server_factory import SibylTcpSeverProtocolFactory
 
 
 def SibylStart(protocol,          # 'UDP' or TCP'
