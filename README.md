@@ -1,1 +1,1 @@
-# xAAL
+#Sibyl protocol
